@@ -3,30 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nueva York</title>
     <link rel="stylesheet" href="estilo.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <link rel="icon" href="./img/pizza-slice-solid.svg" type="image/png">
 </head>
+
 <body>
   <header class="flex">
-    <h1>TURISME LOCAL - NEW YORK</h1>
+    <h1>TURISME LOCAL - NUEVA YORK</h1>
   </header>
-<div id="pag">
 
-  <!-- COLUMNAS Y CONTENIDO -->
+  <!-- Contenido principal -->
+  <div id="pag">
 
-        <div class="column-izq">
-                <h2>MENÚ</h2>
-                <p>MENÚ:</p>
-                <li><a href="#galeria_img">Galería de imágenes</li></a>
-                <li><a href="#lugares_int">Lugares de interés</li></a>
-                <li><a href="#mapa_poblacion">Mapa de población</li></a>
-                <li><a href=#reseñas>Reseñas y ruta</li></a>
-        </div>
-        <div class="columna-central">
-                <h2>NUEVA YORK</h2>
-                <h3 id="galeria_img">Galería de imágenes:</h3>
+  <!-- COLUMNA IZQUIERDA -->
+
+  <div class="column-izq">
+    <h2>MENÚ</h2>
+    <p>MENÚ:</p>
+    <ul>
+      <li><a href="#galeria_img">Galería de imágenes</a></li>
+      <li><a href="#lugares_int">Lugares de interés</a></li>
+      <li><a href="#mapa_poblacion">Mapa de población</a></li>
+      <li><a href="#reseñas">Reseñas y ruta</a></li>
+    </ul>
+  </div>
+
+  <!-- Columna central -->
+  <div class="columna-central">
+    <h2>NUEVA YORK</h2>
+    <h3 id="galeria_img">Galería de imágenes:</h3>
             <div class="gallery ">
                 <div id="carouselExampleIndicators" class="carousel slide">
                         <div class="carousel-indicators">
@@ -57,8 +65,7 @@
             </div>
 
 <!-- LUGARES DE INTERES -->
-
-            <h3 id="lugares_int">Lugares de interés:</h3>
+<h3 id="lugares_int">Lugares de interés:</h3>
             <div class="gallery">
               <div class="image-container">
                   <img src="./img/lugar_interes_img1.jpg" alt="One World Observatory">
@@ -82,8 +89,8 @@
               </div>
           </div>
 
-          <h3 id="mapa_poblacion">Mapa de la población:</h3>
-          <img class="mapapoblacionnn" src="./img/mapa_poblacion_img1.jpg" alt="Mapa Nueva York">
+<h3 id="mapa_poblacion">Mapa de la población:</h3>
+<img class="mapapoblacionnn" src="./img/mapa_poblacion_img1.jpg" alt="Mapa Nueva York">
 
 <!-- MAPA DE POBLACION -->
           
@@ -170,18 +177,39 @@
   </div>
 
 <!-- RESEÑAS Y RUTAS -->
-<h3>Reseñas y ruta</h3>
-<p>TripAdvisor: <a href="https://www.tripadvisor.es/ShowUserReviews-g60763-d8858061-r460481053-Mi_Viaje_a_Nueva_York-New_York_City_New_York.html" target="_blank">Link a la reseña</a></p>
-<p>Los Viajeros: <a href="https://www.losviajeros.com/foros.php?sm=Viajar-Nueva-York&sf=66" target="_blank">Link a la reseña</a></p>
-<p>Ruta en Nueva York :<a href="https://www.viajeroscallejeros.com/nueva-york-7-dias/" target="_blank">Link a la ruta en 7 días</a></p>
+<h3 id= "reseñas">Reseñas y ruta</h3>
+<table>
+  <tr>
+    <th>Webs</th>
+    <th>Enlace</th>
+    <th>Valoración</th>
+  </tr>
+  <tr>
+    <td>TripAdvisor</td>
+    <td><a href="https://www.tripadvisor.es/ShowUserReviews-g60763-d8858061-r460481053-Mi_Viaje_a_Nueva_York-New_York_City_New_York.html" target="_blank">Link a la reseña</a></td>
+    <td>4.6/5</td>
+  </tr>
+  <tr>
+    <td>Los Viajeros</td>
+    <td><a href="https://www.losviajeros.com/foros.php?sm=Viajar-Nueva-York&sf=66" target="_blank">Link a la reseña</a></td>
+    <td>4.2/5</td>
+  </tr>
+  <tr>
+    <td>Ruta en Nueva York</td>
+    <td><a href="https://www.viajeroscallejeros.com/nueva-york-7-dias/" target="_blank">Link a la ruta en 7 días</a></td>
+    <td>4.8/5</td>
+  </tr>
+</table>
 
+
+<!-- REDES SOCIALES -->
 <div class="social-container">
   <a href="https://www.instagram.com/dieego08__" target="_blank" class="social-icon"><img src="./img/icono_instagram.png" alt="Instagram"></a>
   <a href="https://github.com/diegoarquito?tab=repositories" target="_blank" class="social-icon"><img src="./img/github_icono.png" alt="GitHub"></a>
 </div>
       
 
-
+<!-- NOTICIAS -->
         </div>
         <div class="column-der ">
                 <h2>NOTICIAS</h2>
@@ -207,11 +235,10 @@
                 <p>El distinguido Colegio de Abogados de Nueva York ha presentado propuestas revolucionarias destinadas a reformar la regulación de criptomonedas. Estas enmiendas, cuidadosamente elaboradas, buscan no solo fortalecer la seguridad, sino también brindar una mayor claridad legal.</p>
 
                 <h5><strong>Ciudad de Nueva York impone toque de queda en cuatro refugios de migrantes</h5></strong>
-                <div class="imagenrrdd">
-                    <img src="./img/inmigrantes.png" alt="desahucio inmigrantes">
-                </div>
-                <p>El distinguido Colegio de Abogados de Nueva York ha presentado propuestas revolucionarias destinadas a reformar la regulación de criptomonedas. Estas enmiendas, cuidadosamente elaboradas, buscan no solo fortalecer la seguridad, sino también brindar una mayor claridad legal.</p>
-
+              <div class="video">
+                <iframe src="https://www.youtube.com/embed/rk6-RbT3wCg?si=GXYvod0ISivVfSDh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+                <p>Nueva York ha implementado un toque de queda en cuatro refugios de migrantes debido a preocupaciones de seguridad. La medida busca gestionar mejor las operaciones y garantizar la protección de los residentes en estos refugios.</p>
         </div>
 
 <!-- BOOTSTRAP -->
@@ -221,7 +248,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-
+  
 </body>
 </html>

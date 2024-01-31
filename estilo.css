@@ -1,16 +1,26 @@
-/* TITULOS Y ENCABEZADO */
-
+@media (max-width: 700px) {}
 body{
     font-size: 16px;
     padding: 3%;
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .flex{
 display: flex;
 align-items :center;
 justify-content: center;
+font-size: 3em;
+font-weight: bold;
+text-align: center;
+color: purple;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
 }
+
+/* TITULO Y ENCABEZAO */
 
 header{
     height: 100vh;
@@ -93,6 +103,7 @@ margin: 5px;
     float: left;
     width: 50%;
     border: 1px solid #ccc; 
+    margin: 5px;
 }
 
 /* GALERIA DE IMAGENES */
@@ -149,6 +160,28 @@ img{
     padding: 3%;
 }
 
+/* RESEÑA Y RUTA */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
 /* REDES SOCIALES */
 
 .social-container {
@@ -179,4 +212,43 @@ img{
 text-align: center;
 }
 
+/* PARA PANTALLAS PEQUEÑAS (700PX) */
+
+@media only screen and (max-width: 700px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    .gallery img,
+    .image-container img,
+    .mapapoblacionnn,
+    img {
+        width: 100%;
+    }
+
+    .column-der,
+    .column-izq,
+    .columna-central,
+    .image-container {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 5px;
+    }
+}
 
